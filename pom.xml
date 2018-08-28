@@ -6,7 +6,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>TwitterApp</name>
-
+	
+	
 	<properties>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -79,16 +80,19 @@
 			<artifactId>spring-security-core</artifactId>
 			<version>${org.springframework.security.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>${org.springframework.security.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 			<version>${org.springframework.security.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-taglibs</artifactId>
